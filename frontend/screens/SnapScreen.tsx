@@ -33,7 +33,7 @@ export default function SnapScreen() {
       type: "image/jpeg",
     });
 
-    fetch("http://172.17.188.6:3000/upload", {
+    fetch("http://10.16.56.158:19000/upload", {
       method: "POST",
       body: formData,
     })
